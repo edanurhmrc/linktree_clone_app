@@ -1,0 +1,16 @@
+type Profile @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  facebook: String
+  instagram: String
+  twitter: String
+  linkedin: String
+}
+
+type Linktree @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email: AWSEmail!
+  profile_photo: AWSURL
+  background_picture: AWSURL
+  link: [AWSJSON]
+  profil: Profile @hasOne
+} 

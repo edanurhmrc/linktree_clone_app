@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3linktreeclonestorage95fbc6d3",
+  "bucketName": "linktreeclone-storage-95fbc6d3",
+  "policyUUID": "b039ec2f",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "READ",
+    "CREATE_AND_UPDATE",
+    "DELETE"
+  ]
+}

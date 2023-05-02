@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-linktreeclone-dev-232945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::807709602965:role/amplify-linktreeclone-dev-232945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::807709602965:role/amplify-linktreeclone-dev-232945-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-linktreeclone-dev-232945-deployment",
+      "UnauthRoleName": "amplify-linktreeclone-dev-232945-unauthRole",
+      "StackName": "amplify-linktreeclone-dev-232945",
+      "StackId": "arn:aws:cloudformation:eu-central-1:807709602965:stack/amplify-linktreeclone-dev-232945/c0f6a4c0-e2de-11ed-90c1-069019cdc5fc",
+      "AmplifyAppId": "d1b331bf10jxyl",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-linktreeclone-dev-232945-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "linktreecloneaef46c96": {}
+      },
+      "function": {
+        "linktreeclonecf5d8b80": {
+          "deploymentBucketName": "amplify-linktreeclone-dev-232945-deployment",
+          "s3Key": "amplify-builds/linktreeclonecf5d8b80-4259672b54485431526d-build.zip"
+        }
+      },
+      "api": {
+        "api9445d50f": {}
+      },
+      "storage": {
+        "s3linktreeclonestorage95fbc6d3": {}
+      }
+    }
+  }
+}
